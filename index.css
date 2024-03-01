@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.container{
+    background-image: url("./assets/background.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.logo-and-name-container{
+    display: flex;
+    align-items: center;
+}
+.logo-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.login-button{
+    background-color: #39A7FF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.login{
+    background-color: transparent;
+    border: 1px solid #ecc608;
+    margin-right:8px;
+}
+.name{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+.hero-heading{
+    font-family:lobster;
+    color: #f7be03 ;
+    font-size: 30px ;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.hero-para{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+.select-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.select{
+    background-color: transparent;
+    border: 1px solid #ecc608;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 12px;
+}
+.option{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    color:black;
+    background-color: transparent;
+    font-size: 16px;
+    
+}
+.just{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: blueviolet;
+}
+.section1{
+    background-color: rgb(228, 205, 177);
+}
+.welcoming{
+    text-align: center;
+    padding: 15px;
+}
+.welcome-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    padding-top: 10px;
+}
+.welcome-para{
+    font-size: 18px;
+    color: black;
+    padding-top: 10px;
+}
+.specality-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.wcu-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: #0aa3df;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.wcu-card-heading {
+    text-align: center;
+    font-family: "Roboto";
+    color: #323f4b;
+    font-size: 24px;
+    font-weight: 600;
+}
+.wcu-images {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.wcu-card-para {
+    font-family: "Times New Roman";
+    color: brown;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+.special-offer {
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+.payment-and-delivery-section-container {
+    background-image: linear-gradient(#b6f2e5, #ffffff);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.payment-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery-and-payment-image {
+    width: 270px;
+}
+
+.delivery-and-payment-heading {
+    font-family: "Roboto";
+    color: #183b56;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.delivery-and-payment-para {
+    font-family: "Roboto";
+    color: #5a7184;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.payment-and-delivery-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
+.images-container{
+    margin-top: 15px;
+}
+.footer-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+footer{
+    background-color: antiquewhite;
+    padding: 15px;
+    text-align: center;
+}
+.para{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+span{
+    font-size: 20px;
+    color: brown;
+    font-weight: 800;
+}
+@media screen and (min-width: 768px) {
+    .name{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 32px;
+        color: white;
+        font-weight: bold;
+    }
+    .hero-heading{
+        font-size: 34px;
+    }
+    .login-button{
+        background-color: #39A7FF;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .login{
+        background-color: transparent;
+        border: 1px solid #ecc608;
+        margin-right:8px;
+    }
+    .specality-container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .wcu-card{
+        width: 250px;
+        margin-right: 15px;
+    }
+    .payment-and-delivery-section-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 50px;
+    }
+    .payment-container{
+        order:1
+    }
+    .delivery-and-payment-image{
+        width: 450px ;
+    }
+    .payment-desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        padding-right: 30px;
+    }
+    .delivery-and-payment-heading{
+        text-align: left;
+    }
+    .delivery-and-payment-para{
+        text-align: left;
+    }
+}
